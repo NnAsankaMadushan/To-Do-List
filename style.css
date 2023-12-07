@@ -33,6 +33,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     min-height: 100vh;
@@ -43,6 +44,9 @@ body{
     font-family: 'poppins';
     font-size: var(--fs-body);
     background-color: var(--clr-primary);
+    background: url(/img-1.jpg);
+    background-size: cover;
+    background-position-x: center;
 }
 .btn{
     padding: .5rem .75rem;
@@ -127,6 +131,8 @@ li * {
 .attribute{
     position: absolute;
     bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 @media (max-width:768px) {
